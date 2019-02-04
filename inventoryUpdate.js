@@ -16,7 +16,7 @@ function updateInventory(arr1, arr2) {
           arr1.push(item);
       }
   });
-  arr1.sort((a, b) => a[1] > b[1]);
+  arr1.sort((item1, item2) => item1[1] < item2[1] ? -1 : 1);
   return arr1;
 }
 
