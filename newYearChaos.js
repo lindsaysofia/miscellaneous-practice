@@ -27,7 +27,7 @@ function minimumBribes(q) {
      if (currentNumberIndex === -1) {
        return 'Too Chaotic';
      }
-     numberBribes += currentIndex - currentNumberIndex;
+     numberBribes += Math.abs(currentIndex - currentNumberIndex);
      currentIndex = currentNumberIndex - 1;
      currentNumber = currentNumberIndex;
   }
@@ -36,7 +36,7 @@ function minimumBribes(q) {
 
 console.log(minimumBribes([2, 1, 5, 3, 4])); // 3
 console.log(minimumBribes([2, 5, 1, 3, 4])) // Too chaotic
-console.log(minimumBribes([1, 2, 5, 3, 4, 7, 8, 6])) // 8
+console.log(minimumBribes([1, 2, 5, 3, 4, 7, 8, 6])) // 4
 
 console.log([2, 1, 5, 3, 4].indexOf(5, -1));
 console.log(Math.max(2, 3))
