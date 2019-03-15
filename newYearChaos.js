@@ -27,3 +27,5 @@ function minimumBribes(q) {
 
 console.log(minimumBribes([2, 1, 5, 3, 4])); // 3
 console.log(minimumBribes([2, 5, 1, 3, 4])) // Too chaotic
+
+console.log([2, 5, 1, 3, 4].indexOf(2));
