@@ -20,12 +20,23 @@ Output: Print an integer denoting the minimum number of bribes needed to get the
 function minimumBribes(q) {
   let currentIndex = q.length - 1;
   let currentNumber = q.length;
-  while (currentIndex >= 0) {
-    let findCurrentNumber = q.indexOf(currentNumber, currentIndex - 2);
+  let currentNumberIndex;
+  let numberBribes = 0;
+  while (currentIndex > 0) {
+     currentNumberIndex = q.indexOf(currentNumber, Math.max(currentIndex - 2, 0));
+     if (currentNumberIndex === -1) {
+       return 'Too Chaotic';
+     }
+     numberBribes += currentIndex - currentNumberIndex;
+     currentIndex = currentNumberIndex - 1;
+     currentNumber = currentNumberIndex;
   }
+  return numberBribes;
 }
 
 console.log(minimumBribes([2, 1, 5, 3, 4])); // 3
 console.log(minimumBribes([2, 5, 1, 3, 4])) // Too chaotic
+console.log(minimumBribes([1, 2, 5, 3, 4, 7, 8, 6])) // 8
 
-console.log([2, 5, 1, 3, 4].indexOf(2));
+console.log([2, 1, 5, 3, 4].indexOf(5, -1));
+console.log(Math.max(2, 3))
