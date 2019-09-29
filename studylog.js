@@ -1,6 +1,10 @@
 /* 
+09/29/2019
+- Basic JavaScript: Record Collection - Basic JavaScript: Use Multiple Conditional (Ternary) Operators
+
 09/28/2019
 - Working on finishing touches for Cover Letter and Resume.
+- Basic JavaScript: Manipulating Complex Objects - Basic JavaScript: Accessing Nested Arrays
 
 09/27/2019
 - Working on Cover Letter and Resume
