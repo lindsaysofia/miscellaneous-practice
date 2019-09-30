@@ -1,6 +1,7 @@
 /* 
 09/29/2019
 - Basic JavaScript: Record Collection - Basic JavaScript: Use Multiple Conditional (Ternary) Operators
+- javascript.info - JavaScript Fundamentals - Operators
 
 09/28/2019
 - Working on finishing touches for Cover Letter and Resume.
