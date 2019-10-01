@@ -1,4 +1,8 @@
 /* 
+09/30/2019 
+- javascript.info - JavaScript Fundamentals: Operators - Conditional operators: if, '?'
+
+
 09/29/2019
 - Basic JavaScript: Record Collection - Basic JavaScript: Use Multiple Conditional (Ternary) Operators
 - javascript.info - JavaScript Fundamentals - Operators
