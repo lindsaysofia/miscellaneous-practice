@@ -1,4 +1,7 @@
 /* 
+10/1/2019
+- ES6: Explore Differences Between the var and let Keywords- ES6: Declare a Read-Only Variable with the const Keyword... Need to be more productive
+
 09/30/2019 
 - javascript.info - JavaScript Fundamentals: Operators - Conditional operators: if, '?'
 
