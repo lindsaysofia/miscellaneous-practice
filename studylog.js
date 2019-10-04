@@ -1,4 +1,8 @@
 /* 
+10/3/2019
+- ES6: Write Concise Declarative Functions with ES6 - ES6: Import a Default Export
+- Regular Expressions: Using the Test Method - Regular Expressions: Check for All or None
+
 10/2/2019
 - ES6: Declare a Read-Only Variable with the const Keyword - ES6: Write Concise Object Literal Declarations Using Simple Fields
 
