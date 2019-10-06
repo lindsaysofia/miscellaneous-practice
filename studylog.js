@@ -1,4 +1,16 @@
 /* 
+10/6/2019
+- Regular Expressions: Positive and Negative Lookahead - Regular Expressions: Remove Whitespace from Start and End
+- Debugging: Use the JavaScript Console to Check the Value of a Variable - Debugging: Prevent Infinite Loops with a Valid Terminal Condition
+
+ 
+
+10/5/2019
+- N/A
+
+10/4/2019
+- N/A
+
 10/3/2019
 - ES6: Write Concise Declarative Functions with ES6 - ES6: Import a Default Export
 - Regular Expressions: Using the Test Method - Regular Expressions: Check for All or None
