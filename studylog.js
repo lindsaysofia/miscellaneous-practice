@@ -3,7 +3,7 @@
 - Regular Expressions: Positive and Negative Lookahead - Regular Expressions: Remove Whitespace from Start and End
 - Debugging: Use the JavaScript Console to Check the Value of a Variable - Debugging: Prevent Infinite Loops with a Valid Terminal Condition
 
- 
+- Basic Data Structures: Use an Array to Store a Collection of Data - Basic Data Structures: Access an Array's Contents Using Bracket Notation 
 
 10/5/2019
 - N/A
