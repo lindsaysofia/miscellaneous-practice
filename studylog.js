@@ -1,4 +1,7 @@
 /* 
+10/7/2019
+- Basic Data Structures: Add Items to an Array with push() and unshift() - Basic Data Structures: Modify an Array Stored in an Object
+
 10/6/2019
 - Regular Expressions: Positive and Negative Lookahead - Regular Expressions: Remove Whitespace from Start and End
 - Debugging: Use the JavaScript Console to Check the Value of a Variable - Debugging: Prevent Infinite Loops with a Valid Terminal Condition
