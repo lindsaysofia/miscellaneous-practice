@@ -1,4 +1,7 @@
 /* 
+10/8/2019
+- Basic Algorithm Scripting: Convert Celsius to Fahrenheit - Basic Algorithm Scripting: Find the Longest Word in a String
+
 10/7/2019
 - Basic Data Structures: Add Items to an Array with push() and unshift() - Basic Data Structures: Modify an Array Stored in an Object
 
