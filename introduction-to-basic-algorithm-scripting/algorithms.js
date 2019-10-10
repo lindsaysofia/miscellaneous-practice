@@ -163,3 +163,17 @@ function frankenSplice(arr1, arr2, n) {
   arr2Copy.splice(n, 0, ...arr1);
   return arr2Copy;
 }
+
+/*
+Falsy Bouncer
+
+Remove all falsy values from an array.
+
+Falsy values in JavaScript are false, null, 0, "", undefined, and NaN.
+
+Hint: Try converting each value to a Boolean.
+*/
+function bouncer(arr) {
+  // Don't show a false ID to this bouncer.
+  return arr.filter(element => Boolean(element) === true);
+}
