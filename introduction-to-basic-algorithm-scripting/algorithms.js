@@ -80,3 +80,18 @@ function confirmEnding(str, target) {
   // -- Falcor
   return str.substring(str.length - target.length) === target;
 }
+
+/*
+Repeat a String Repeat a String
+
+Repeat a given string str(first argument) for numtimes (second argument). Return an empty string if numis not a positive number.
+*/
+function repeatStringNumTimes(str, num) {
+  // repeat after me
+  let repeatedString = '';
+  while (num > 0) {
+    repeatedString += str;
+    num--;
+  }
+  return repeatedString;
+}
