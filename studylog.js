@@ -1,4 +1,7 @@
 /* 
+10/9/2019
+- Basic Algorithm Scripting: Return Largest Numbers in Arrays - Basic Algorithm Scripting: Chunky Monkey
+
 10/8/2019
 - Basic Algorithm Scripting: Convert Celsius to Fahrenheit - Basic Algorithm Scripting: Find the Longest Word in a String
 
