@@ -220,3 +220,22 @@ function mutation(arr) {
   }
   return true;
 }
+
+/*
+Chunky Monkey
+
+Write a function that splits an array (first argument) into groups the length of size(second argument) and returns them as a two-dimensional array.
+*/
+function chunkArrayInGroups(arr, size) {
+  // Break it up.
+  let arrChunks = [];
+  let chunk = [];
+  for (let arrIndex = 0; arrIndex < arr.length; arrIndex++) {
+    chunk.push(arr[arrIndex]);
+    if (chunk.length === size | arrIndex === arr.length - 1) {
+      arrChunks.push(chunk);
+      chunk = [];
+    }
+  }
+  return arrChunks;
+}
