@@ -95,3 +95,18 @@ function repeatStringNumTimes(str, num) {
   }
   return repeatedString;
 }
+
+/*
+Truncate a String
+
+Truncate a string (first argument) if it is longer than the given maximum string length (second argument). Return the truncated string with a ...ending.
+*/
+function truncateString(str, num) {
+  // Clear out that junk in your trunk
+  if (str.length > num) {
+    let strArray = str.split('');
+    strArray.splice(num, str.length - num, '...');
+    return strArray.join('');
+  }
+  return str;
+}
