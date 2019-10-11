@@ -1,4 +1,7 @@
 /* 
+10/10/2019
+- Object Oriented Programming: Create a Basic JavaScript Object - Object Oriented Programming: Extend Constructors to Receive Arguments
+
 10/9/2019
 - Basic Algorithm Scripting: Return Largest Numbers in Arrays - Basic Algorithm Scripting: Chunky Monkey
 
