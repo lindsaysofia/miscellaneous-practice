@@ -1,4 +1,7 @@
 /* 
+10/11/2019
+- Object Oriented Programming: Verify an Object's Constructor with instanceof - Object Oriented Programming: Use a Mixin to Add Common Behavior Between Unrelated Objects
+
 10/10/2019
 - Object Oriented Programming: Create a Basic JavaScript Object - Object Oriented Programming: Extend Constructors to Receive Arguments
 
