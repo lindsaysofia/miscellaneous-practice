@@ -85,3 +85,17 @@ function whatIsInAName(collection, source) {
   // Only change code above this line
   return arr;
 }
+
+/*
+Spinal Tap Case
+
+Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
+
+Keep in mind next time: First find spaces \s and underscores, then replace them with dashes. Can also write a regex to do the following: [a-z][A-Z] => [a-z] [A-Z]. Example:thisIs => this Is.
+*/
+function spinalCase(str) {
+  // "It's such a fine line between stupid, and clever."
+  // --David St. Hubbins
+  let wordRegex = /(^[a-z]+)|([A-Z][a-z]+)|([a-z]+)/g;
+  return str.match(wordRegex).join('-').toLowerCase();
+}
