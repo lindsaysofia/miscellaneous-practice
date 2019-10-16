@@ -1,4 +1,10 @@
 /* 
+10/14/2019 
+- javascript.info - Conditional operators: if, '?' - Loops: while and for
+
+10/13/2019
+- Intermediate Algorithm Scripting: Sum All Numbers in a Range - 
+
 10/12/2019
 - Object Oriented Programming: Use Closure to Protect Properties Within an Object from Being Modified Externally - Object Oriented Programming: Use an IIFE to Create a Module
 - Functional Programming: Learn About Functional Programming - Functional Programming: Introduction to Currying and Partial Application
