@@ -1,9 +1,13 @@
 /* 
+10/15/2019
+- javascript.info - The "switch" statement - Functions
+- Intermediate Algorithm Scripting: Wherefore art thou - Intermediate Algorithm Scripting: Spinal Tap Case
+
 10/14/2019 
 - javascript.info - Conditional operators: if, '?' - Loops: while and for
 
 10/13/2019
-- Intermediate Algorithm Scripting: Sum All Numbers in a Range - 
+- Intermediate Algorithm Scripting: Sum All Numbers in a Range - Intermediate Algorithm Scripting: Seek and Destroy
 
 10/12/2019
 - Object Oriented Programming: Use Closure to Protect Properties Within an Object from Being Modified Externally - Object Oriented Programming: Use an IIFE to Create a Module
