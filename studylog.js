@@ -1,4 +1,7 @@
 /* 
+10/16/2019
+- javascript.info - Function expressions and arrows - JavaScript specials
+
 10/15/2019
 - javascript.info - The "switch" statement - Functions
 - Intermediate Algorithm Scripting: Wherefore art thou - Intermediate Algorithm Scripting: Spinal Tap Case
