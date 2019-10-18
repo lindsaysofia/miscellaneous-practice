@@ -1,4 +1,7 @@
 /* 
+10/17/2019
+- javascript.info - Debugging in Chrome - Ninja Code
+
 10/16/2019
 - javascript.info - Function expressions and arrows - JavaScript specials
 
