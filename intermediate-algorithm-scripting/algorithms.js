@@ -99,3 +99,27 @@ function spinalCase(str) {
   let wordRegex = /(^[a-z]+)|([A-Z][a-z]+)|([a-z]+)/g;
   return str.match(wordRegex).join('-').toLowerCase();
 }
+
+/*
+Pig Latin
+
+Translate the provided string to pig latin.
+
+Pig Latin takes the first consonant (or consonant cluster) of an English word, moves it to the end of the word and suffixes an "ay".
+
+If a word begins with a vowel you just add "way" to the end.
+
+If a word does not contain a vowel, just add "ay" to the end.
+
+Input strings are guaranteed to be English words in all lowercase.
+
+Keep in mind next time: Only need to check consonants, because if no consonants then just add 'way' to original string. Can also use str.replace.
+*/
+function translatePigLatin(str) {
+  let vowelRegex = /[aeiou]+\w+/;
+  let consonantRegex = /^[^aeiou]+/;
+  let vowels = str.match(vowelRegex) || [];
+  let consonant = str.match(consonantRegex) || [];
+  let suffix = (consonant.length > 0) ? ['ay'] : ['way'];
+  return vowels.concat(consonant).concat(suffix).join('');
+}
