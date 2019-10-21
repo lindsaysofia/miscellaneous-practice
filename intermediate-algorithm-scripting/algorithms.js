@@ -142,3 +142,45 @@ function myReplace(str, before, after) {
   after = (before[0] === before[0].toUpperCase()) ? after[0].toUpperCase() + after.substring(1) : after;
   return str.replace(before, after);
 }
+
+/*
+DNA Pairing
+
+The DNA strand is missing the pairing element. Take each character, get its pair, and return the results as a 2d array.
+
+Base pairs are a pair of AT and CG. Match the missing element to the provided character.
+
+Return the provided character as the first element in each array.
+
+For example, for the input GCG, return [["G", "C"], ["C","G"],["G", "C"]]
+
+The character and its pair are paired up in an array, and all the arrays are grouped into one encapsulating array.
+
+Keep in mind next time: Maybe use switch? 
+*/
+function pairElement(str) {
+  let dnaPairs = {
+    A: ['A', 'T'],
+    T: ['T', 'A'],
+    C: ['C', 'G'],
+    G: ['G', 'C'],
+  }
+  return str.split('').map(dnaCharacter => dnaPairs[dnaCharacter]);
+}
+
+/*
+Missing letters
+
+Find the missing letter in the passed letter range and return it.
+
+If all letters are present in the range, return undefined.
+*/
+function fearNotLetter(str) {
+  let startCharCode = str.charCodeAt(0);
+  let endCharCode = str.charCodeAt(str.length - 1);
+  let sum = ((startCharCode + endCharCode) * (endCharCode - startCharCode + 1)) / 2;
+  for (let strIndex = 0; strIndex < str.length; strIndex++) {
+    sum -= str.charCodeAt(strIndex);
+  }
+  return (sum === 0) ? undefined : String.fromCharCode(sum);
+}
