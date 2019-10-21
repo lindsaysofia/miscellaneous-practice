@@ -1,4 +1,20 @@
 /* 
+10/20/2019
+- Basic HTML and HTML5: Use the value attribute with Radio Buttons and Checkboxes
+- Basic JavaScript: Replace Loops using Recursion
+- Basic JavaScript: Use Recursion to Create a Range of Numbers
+- Basic JavaScript: Use Recursion to Create a Countdown
+- ES6: Use Destructuring Assignment to Extract Values from Objects
+- ES6: Create a Module Script
+- ES6: Create a JavaScript Promise
+- Intermediate Algorithm Scripting: Pig Latin - Intermediate Algorithm Scripting: Missing letters
+
+10/19/2019
+- N/A
+
+10/18/2019
+- javascript.info - Automated testing with Mocha - Objects
+
 10/17/2019
 - javascript.info - Debugging in Chrome - Ninja Code
 
