@@ -206,3 +206,26 @@ function uniteUnique(...args) {
   }
   return firstArr;
 }
+
+/*
+Convert HTML Entities
+
+Convert the characters &, <, >, " (double quote), and ' (apostrophe), in a string to their corresponding HTML entities.
+
+convertHTML("Dolce & Gabbana") should return Dolce &amp; Gabbana.
+*/
+function convertHTML(str) {
+  // &colon;&rpar;
+  const htmlEntities = {
+    '&': 'amp',
+    '<': 'lt',
+    '>': 'gt',
+    '"': 'quot',
+    "'": 'apos',
+  };
+  let charRegex = /&|<|>|"|'/g;
+  return str.replace(charRegex, (match) => {
+    return `&${htmlEntities[match]};`;
+  });
+}
+
