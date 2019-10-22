@@ -1,4 +1,8 @@
 /* 
+10/21/2019
+- Intermediate Algorithm Scripting: Sorted Union - Intermediate Algorithm Scripting: Sum All Primes
+- javascript.info - Objects - Garbage collection
+
 10/20/2019
 - Basic HTML and HTML5: Use the value attribute with Radio Buttons and Checkboxes
 - Basic JavaScript: Replace Loops using Recursion
