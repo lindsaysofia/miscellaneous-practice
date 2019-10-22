@@ -213,6 +213,8 @@ Convert HTML Entities
 Convert the characters &, <, >, " (double quote), and ' (apostrophe), in a string to their corresponding HTML entities.
 
 convertHTML("Dolce & Gabbana") should return Dolce &amp; Gabbana.
+
+Keep in mind next time: A possible regex was: /([&<>\"'])/g
 */
 function convertHTML(str) {
   // &colon;&rpar;
@@ -224,8 +226,6 @@ function convertHTML(str) {
     "'": 'apos',
   };
   let charRegex = /&|<|>|"|'/g;
-  return str.replace(charRegex, (match) => {
-    return `&${htmlEntities[match]};`;
-  });
+  return str.replace(charRegex, match =>`&${htmlEntities[match]};`);
 }
 
