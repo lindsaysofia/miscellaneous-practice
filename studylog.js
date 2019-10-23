@@ -1,4 +1,7 @@
 /* 
+10/22/2019
+- Literally couldn't figure this out... whyyyyyy???
+
 10/21/2019
 - Intermediate Algorithm Scripting: Sorted Union - Intermediate Algorithm Scripting: Sum All Primes
 - javascript.info - Objects - Garbage collection

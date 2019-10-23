@@ -266,6 +266,8 @@ Sum all the prime numbers up to and including the provided number.
 A prime number is defined as a number greater than one and having only two divisors, one and itself. For example, 2 is a prime number because it's only divisible by one and two.
 
 The provided number may not be a prime.
+
+sumPrimes(10) should return 17.
 */
 function sumPrimes(num) {
   let sum = 0;
@@ -286,5 +288,44 @@ function isPrime(num) {
   }
   return true;
 }
+
+/*
+Smallest Common Multiple
+
+Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters.
+
+The range will be an array of two numbers that will not necessarily be in numerical order.
+
+For example, if given 1 and 3, find the smallest common multiple of both 1 and 3 that is also evenly divisible by all numbers between 1 and 3. The answer here would be 6.
+*/
+function getPrimeFactors(num) {
+  let primeFactors = {};
+  for (let i = 2; i <= num; i++) {
+    if (isPrime(i) && (num % i === 0)) {
+      let multiple = 0;
+      // while (num > i) {
+      // //   multiple++;
+      // //   num -= i;
+      // console.log(num);
+      // num -= i;
+
+      // }
+      
+      // primeFactors[String(i)] = multiple;
+    }
+  }
+  return primeFactors;
+}
+
+// function isPrime(num) {
+//   for (let i = 2; i < num; i++) {
+//     if (num % i === 0) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+
+console.log(getPrimeFactors(2));
 
 
