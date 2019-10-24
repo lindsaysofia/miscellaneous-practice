@@ -1,4 +1,7 @@
 /* 
+10/23/2019
+- Intermediate Algorithm Scripting: Smallest Common Multiple
+
 10/22/2019
 - Literally couldn't figure this out... whyyyyyy???
 
