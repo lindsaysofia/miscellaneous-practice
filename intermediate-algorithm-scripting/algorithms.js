@@ -297,35 +297,55 @@ Find the smallest common multiple of the provided parameters that can be evenly 
 The range will be an array of two numbers that will not necessarily be in numerical order.
 
 For example, if given 1 and 3, find the smallest common multiple of both 1 and 3 that is also evenly divisible by all numbers between 1 and 3. The answer here would be 6.
+
+smallestCommons([23, 18]) should return 6056820.
+
+Keep in mind next time:
+- Sort the array
+- Take the biggest element, see if it is a multiple of the rest
+- If yes, done. If not, check the next nultiple of the biggest element
+- Basically keep checking multiples of the biggest number and see if they are multiples of the other numbers.
 */
+function smallestCommons(arr) {
+  let beginRange = Math.min(...arr);
+  let endRange = Math.max(...arr);
+  let smallesCommonMultiple = beginRange;
+  for (let i = Math.min(endRange, beginRange + 1); i <= endRange; i++) {
+    smallesCommonMultiple = lcm(smallesCommonMultiple, i);
+  }
+  return smallesCommonMultiple;
+}
+
+function lcm(a, b) {
+  let aPrimeFactors = getPrimeFactors(a);
+  let bPrimeFactors = getPrimeFactors(b);
+  let leastCommonMultiple = 1;
+  for (let aPrime in aPrimeFactors) {
+    let aPrimeFactorExponent = aPrimeFactors[aPrime]
+    let bPrimeFactorExponent = bPrimeFactors[aPrime] || 0;
+    leastCommonMultiple *= aPrime ** Math.max(aPrimeFactorExponent, bPrimeFactorExponent);
+    delete bPrimeFactors[aPrime];
+  }
+  for (let bPrime in bPrimeFactors) {
+    let bPrimeFactorExponent = bPrimeFactors[bPrime]
+    let aPrimeFactorExponent = aPrimeFactors[bPrime] || 0;
+    leastCommonMultiple *= bPrime ** Math.max(bPrimeFactorExponent, aPrimeFactorExponent);
+  }
+  return leastCommonMultiple;
+}
+
 function getPrimeFactors(num) {
   let primeFactors = {};
   for (let i = 2; i <= num; i++) {
     if (isPrime(i) && (num % i === 0)) {
-      let multiple = 0;
-      // while (num > i) {
-      // //   multiple++;
-      // //   num -= i;
-      // console.log(num);
-      // num -= i;
-
-      // }
-      
-      // primeFactors[String(i)] = multiple;
+      if (!(String(i) in primeFactors)) {
+        primeFactors[String(i)] = 0;
+      }
+      primeFactors[String(i)] += 1;
+      num /= i;
+      i -= 1;
     }
   }
   return primeFactors;
 }
-
-// function isPrime(num) {
-//   for (let i = 2; i < num; i++) {
-//     if (num % i === 0) {
-//       return false;
-//     }
-//   }
-//   return true;
-// }
-
-console.log(getPrimeFactors(2));
-
 
