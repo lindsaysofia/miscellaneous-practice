@@ -1,4 +1,7 @@
 /* 
+10/24/2019
+- Intermediate Algorithm Scripting: Drop it
+
 10/23/2019
 - Intermediate Algorithm Scripting: Smallest Common Multiple
 
