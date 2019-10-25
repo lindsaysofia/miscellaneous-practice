@@ -368,4 +368,33 @@ function dropElements(arr, func) {
   }
   return [];
 }
-console.log(dropElements([1, 2, 3, 4], function(n) {return n >= 3;}));
+
+/*
+Steamroller
+
+Flatten a nested array. You must account for varying levels of nesting.
+
+steamrollArray([1, {}, [3, [[4]]]]) should return [1, {}, 3, 4]
+
+Keep in mind next time: 
+- return arr.flat(Infinity) -> Was my first solution and it passed the tests but I wanted to try another way;
+- Also, concat returns a new array, doesn't alter the OG array lololol 
+- One solution was to turn the array into a string and then get rid of the nesting. Interesting
+*/
+// function steamrollArray(arr) {
+//   return arr.flat(Infinity);
+// }
+
+function steamrollArray(arr) {
+  let flatArray = [];
+  for (let arrIndex = 0; arrIndex < arr.length; arrIndex++) {
+    let arrElement = arr[arrIndex];
+    if (Array.isArray(arrElement)) {
+      flatArray = flatArray.concat(steamrollArray(arrElement));
+    } else {
+      flatArray = flatArray.concat(arrElement);
+    }
+
+  }
+  return flatArray;
+}
