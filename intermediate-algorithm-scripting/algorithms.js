@@ -466,3 +466,33 @@ function addTogether(...args) {
   return undefined;
 }
 
+/*
+Make a Person
+
+var Person = function(firstAndLast) {
+  // Complete the method below and implement the others similarly
+  let firstName = firstAndLast.split(' ')[0];
+  let lastName = firstAndLast.split(' ')[1];
+
+  this.getFullName = function() {
+    return `${firstName} ${lastName}`;
+  };
+  this.getFirstName = function() {
+    return firstName;
+  }
+  this.getLastName = function() {
+    return lastName;
+  }
+  this.setFirstName = function(newFirstName) {
+    firstName = newFirstName; 
+  }
+  this.setLastName = function(newLastName) {
+    lastName = newLastName;
+  }
+  this.setFullName = function(newFirstAndLast) {
+    firstName = newFirstAndLast.split(' ')[0];
+  lastName = newFirstAndLast.split(' ')[1];
+  }
+};
+*/
+
