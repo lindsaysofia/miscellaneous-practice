@@ -349,3 +349,23 @@ function getPrimeFactors(num) {
   return primeFactors;
 }
 
+/*
+Drop it
+
+Given the array arr, iterate through and remove each element starting from the first element (the 0 index) until the function func returns true when the iterated element is passed through it.
+
+Then return the rest of the array once the condition is satisfied, otherwise, arr should be returned as an empty array.
+
+dropElements([1, 2, 3, 4], function(n) {return n >= 3;}) should return [3, 4]
+
+Keep in mind next time: Use findIndex to find the 1st index of the truthy element
+*/
+function dropElements(arr, func) {
+  for (let arrIndex = 0; arrIndex < arr.length; arrIndex++) {
+    if (func(arr[arrIndex])) {
+      return arr.slice(arrIndex);
+    }
+  }
+  return [];
+}
+console.log(dropElements([1, 2, 3, 4], function(n) {return n >= 3;}));
