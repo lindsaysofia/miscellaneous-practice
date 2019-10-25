@@ -398,3 +398,24 @@ function steamrollArray(arr) {
   }
   return flatArray;
 }
+
+/*
+Binary Agents
+
+Return an English translated sentence of the passed binary string.
+
+The binary string will be space separated.
+
+binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111") should return "Aren't bonfires fun!?"
+
+Got some help from https://ourcodeworld.com/articles/read/380/how-to-convert-a-binary-string-into-a-readable-string-and-vice-versa-with-javascript
+
+Keep in mind next time: parseInt first converts to decimal, then we get the char code.
+*/
+
+function binaryAgent(str) {
+  let binaryStrings = str.split(' ');
+  let characterStrings = binaryStrings.map(binaryStr => String.fromCharCode(parseInt(binaryStr, 2)));
+  return characterStrings.join('');
+}
+
