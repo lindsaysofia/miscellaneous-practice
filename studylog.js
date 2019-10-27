@@ -1,4 +1,7 @@
 /* 
+10/26/2019
+- JavaScript Algorithms and Data Structures Projects: Palindrome Checker - JavaScript Algorithms and Data Structures Projects: Roman Numeral Converter
+
 10/25/2019
 - Intermediate Algorithm Scripting: Steamroller - Intermediate Algorithm Scripting: Map the Debris
 
