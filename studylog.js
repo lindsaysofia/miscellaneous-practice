@@ -1,4 +1,8 @@
 /* 
+10/28/2019
+- JavaScript Algorithms and Data Structures Projects: Cash Register
+- Bootstrap: Use Responsive Design with Bootstrap Fluid Containers - Bootstrap: Responsively Style Radio Buttons
+
 10/27/2019
 - JavaScript Algorithms and Data Structures Projects: Caesars Cipher - JavaScript Algorithms and Data Structures Projects: Cash Register
 
