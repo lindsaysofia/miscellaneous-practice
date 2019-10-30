@@ -1,4 +1,7 @@
 /* 
+10/29/2019
+- Bootstrap: Responsively Style Checkboxes - Bootstrap: Style Text Inputs as Form ControlsPassed
+
 10/28/2019
 - JavaScript Algorithms and Data Structures Projects: Cash Register
 - Bootstrap: Use Responsive Design with Bootstrap Fluid Containers - Bootstrap: Responsively Style Radio Buttons
