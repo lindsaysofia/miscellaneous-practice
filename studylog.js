@@ -1,4 +1,11 @@
 /* 
+10/31/2019
+- Bootstrap: Line up Form Elements Responsively with Bootstrap - Bootstrap: Use Comments to Clarify Code
+- jQuery: Learn How Script Tags and Document Ready Work - jQuery: Remove Classes from an Element with jQuery
+
+10/30/2019
+- N/A
+
 10/29/2019
 - Bootstrap: Responsively Style Checkboxes - Bootstrap: Style Text Inputs as Form ControlsPassed
 
