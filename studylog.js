@@ -1,4 +1,9 @@
 /* 
+11/1/2019
+- Let's get this turkey avocado toast???... it's November!
+- jQuery: Change the CSS of an Element Using jQuery - jQuery: Use jQuery to Modify the Entire Page
+- Sass: Store Data with Sass Variables - Sass: Extend One Set of CSS Styles to Another Element
+
 10/31/2019
 - Bootstrap: Line up Form Elements Responsively with Bootstrap - Bootstrap: Use Comments to Clarify Code
 - jQuery: Learn How Script Tags and Document Ready Work - jQuery: Remove Classes from an Element with jQuery
