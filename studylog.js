@@ -1,8 +1,13 @@
 /* 
+11/2/2019
+- WWC Meetup from 10-12pm
+- React: Define an HTML Class in JSX - React: Pass an Array as Props
+
 11/1/2019
 - Let's get this turkey avocado toast???... it's November!
 - jQuery: Change the CSS of an Element Using jQuery - jQuery: Use jQuery to Modify the Entire Page
 - Sass: Store Data with Sass Variables - Sass: Extend One Set of CSS Styles to Another Element
+- React: Create a Simple JSX Element - React: Render HTML Elements to the DOM
 
 10/31/2019
 - Bootstrap: Line up Form Elements Responsively with Bootstrap - Bootstrap: Use Comments to Clarify Code
