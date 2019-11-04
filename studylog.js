@@ -1,4 +1,7 @@
 /* 
+11/3/2019
+- React: Use Default Props - React: Create a Controlled Form
+
 11/2/2019
 - WWC Meetup from 10-12pm
 - React: Define an HTML Class in JSX - React: Pass an Array as Props
