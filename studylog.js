@@ -1,4 +1,7 @@
 /* 
+11/4/2019
+- React: Pass State as Props to Child Components - React: Add Event Listeners
+
 11/3/2019
 - React: Use Default Props - React: Create a Controlled Form
 
