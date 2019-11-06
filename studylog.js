@@ -1,4 +1,7 @@
 /* 
+11/5/2019
+- React: Optimize Re-Renders with shouldComponentUpdate - React: Render React on the Server with renderToString
+
 11/4/2019
 - React: Pass State as Props to Child Components - React: Add Event Listeners
 
