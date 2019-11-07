@@ -1,4 +1,7 @@
 /* 
+11/6/2019
+- Redux: Create a Redux Store - Redux: Dispatch an Action Event
+
 11/5/2019
 - React: Optimize Re-Renders with shouldComponentUpdate - React: Render React on the Server with renderToString
 
