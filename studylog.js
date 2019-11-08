@@ -1,4 +1,8 @@
 /* 
+11/7/2019
+- javascript.info - Symbol type - Object methods, "this"
+- Redux: Handle an Action in the Store - Redux: Send Action Data to the Store
+
 11/6/2019
 - Redux: Create a Redux Store - Redux: Dispatch an Action Event
 
