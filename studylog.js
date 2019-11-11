@@ -1,7 +1,13 @@
 /* 
+11/10/2019
+- worked on Random Quote Machine project
+
 11/9/2019
 - Redux: Use Middleware to Handle Asynchronous Actions - Redux: Copy an Object with Object.assign
 - React and Redux: Getting Started with React Redux - React and Redux: Moving Forward From Here
+
+11/8/2019
+- N/A
 
 11/7/2019
 - javascript.info - Symbol type - Object methods, "this"
