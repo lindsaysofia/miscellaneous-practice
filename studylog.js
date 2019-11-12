@@ -1,4 +1,7 @@
 /* 
+11/11/2019
+- finished Random Quote Machine project on CodePen
+
 11/10/2019
 - worked on Random Quote Machine project
 
