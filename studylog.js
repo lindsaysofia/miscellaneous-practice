@@ -1,4 +1,14 @@
 /* 
+11/14/2019
+- Aded Random Quote Machine project to my Git yay!! I cau use React on my laptop lol
+
+11/13/2019
+- Started learning to use react on my laptop
+
+11/12/2019
+- javascript.info - Object to primitive conversion - Arrays
+- I need to learn better organization/styling guidelines
+
 11/11/2019
 - finished Random Quote Machine project on CodePen
 
