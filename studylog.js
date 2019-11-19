@@ -1,4 +1,17 @@
 /* 
+11/18/2019
+- Added Markdown Previewer to my git.
+- Start on Drum Machine
+
+11/17/2019
+- Still worked on Markdown Previewer (kind of)
+
+11/16/2019
+- Worked on Markdown Previewer project yay!
+
+11/15/2019
+- N/A
+
 11/14/2019
 - Aded Random Quote Machine project to my Git yay!! I cau use React on my laptop lol
 
