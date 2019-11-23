@@ -1,4 +1,16 @@
 /* 
+11/22/2019
+- Finished implementing Drum Machine. Need to style it.
+
+11/21/2019
+- Working on Drum Machine
+
+11/20/2019
+- Working on Drum Machine
+
+11/19/2019
+- Working on Drum Machine
+
 11/18/2019
 - Added Markdown Previewer to my git.
 - Start on Drum Machine
