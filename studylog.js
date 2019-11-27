@@ -1,4 +1,16 @@
 /* 
+11/26/2019
+- Working on JS Calculator
+
+11/25/2019
+- N/A
+
+11/24/2019
+- N/A
+
+11/23/2019
+- Styled Drum Machine :)
+
 11/22/2019
 - Finished implementing Drum Machine. Need to style it.
 
