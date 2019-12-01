@@ -1,4 +1,16 @@
 /* 
+11/30/2019
+- Finished JS Calculator!
+
+11/29/2019
+- working on JS Calculator
+
+11/28/2019
+- Working on JS Calculator!
+
+11/27/2019
+- N/A
+
 11/26/2019
 - Working on JS Calculator
 
