@@ -1,4 +1,18 @@
 /* 
+12/5/2019
+- Finished pomodoro clock project yay! Could've used more styling tbh
+12/4/2019
+- Pomodoro Clock Project
+
+12/3/2019
+- Pomodoro Clock Project
+
+12/2/2019
+- Pomodoro Clock Project
+
+12/1/2019
+- Started on Pomodoro Clock Project
+
 11/30/2019
 - Finished JS Calculator!
 
