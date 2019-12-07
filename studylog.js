@@ -1,4 +1,7 @@
 /* 
+12/6/2019
+- Data Visualization with D3: Add Document Elements with D3 - Data Visualization with D3: Create a Linear Scale with D3Passed12
+
 12/5/2019
 - Finished pomodoro clock project yay! Could've used more styling tbh
 12/4/2019
