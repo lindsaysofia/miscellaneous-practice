@@ -1,6 +1,13 @@
 /* 
+12/8/2019
+- JSON APIs and Ajax: Get JSON with the JavaScript XMLHttpRequest Method - JSON APIs and Ajax: Post Data with the JavaScript XMLHttpRequest Method
+
+12/7/2019
+- Data Visualization with D3: Set a Domain and a Range on a Scale - Data Visualization with D3: Add Axes to a Visualization
+- JSON APIs and Ajax: Handle Click Events with JavaScript using the onclick property - JSON APIs and Ajax: Change Text with click Events
+
 12/6/2019
-- Data Visualization with D3: Add Document Elements with D3 - Data Visualization with D3: Create a Linear Scale with D3Passed12
+- Data Visualization with D3: Add Document Elements with D3 - Data Visualization with D3: Create a Linear Scale with D3
 
 12/5/2019
 - Finished pomodoro clock project yay! Could've used more styling tbh
