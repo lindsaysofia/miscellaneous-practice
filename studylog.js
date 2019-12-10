@@ -1,4 +1,7 @@
 /* 
+12/9/2019
+- Data Visualization Projects - Visualize Data with a Bar Chart (Project)
+
 12/8/2019
 - JSON APIs and Ajax: Get JSON with the JavaScript XMLHttpRequest Method - JSON APIs and Ajax: Post Data with the JavaScript XMLHttpRequest Method
 
