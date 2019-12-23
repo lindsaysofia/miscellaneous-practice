@@ -1,4 +1,37 @@
-/* 
+/*
+12/21/2019
+- working on scatterplot project
+
+12/20/2019
+- IDK
+
+12/19/2019
+- IDK
+
+12/18/2019
+- IDK
+
+12/17/2019
+- IDK
+
+12/16/2019
+- IDK
+
+12/15/2019
+- IDK
+
+12/14/2019
+- IDK
+
+12/13/2019
+- IDK
+
+12/12/2019
+- IDK
+
+12/10/2019
+- Data Visualization Projects - Visualize Data with a Bar Chart (Project)
+
 12/9/2019
 - Data Visualization Projects - Visualize Data with a Bar Chart (Project)
 
