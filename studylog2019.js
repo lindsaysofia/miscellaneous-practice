@@ -1,4 +1,38 @@
 /*
+12/31/2019
+- N/A
+
+12/30/2019
+- N/A
+
+12/29/2019
+- scatterplot project
+- heat map project
+
+12/28/2019
+- N/A
+
+12/27/2019
+- N/A
+
+12/26/2019
+- N/A
+
+12/26/2019
+- scatterplot project
+
+12/25/2019
+- N/A
+
+12/24/2019
+- N/A
+
+12/23/2019
+- N/A
+
+12/22/2019
+- N/A
+
 12/21/2019
 - working on scatterplot project
 
