@@ -1,4 +1,7 @@
 /*
+1/7/2020
+- looked into d3 geopath and topojson
+
 1/6/2020
 - Choropleth project
 
