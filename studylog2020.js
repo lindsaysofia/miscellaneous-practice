@@ -1,4 +1,10 @@
 /*
+1/10/2020
+- choropleth project - finished!
+
+1/9/2020
+- N/A
+
 1/8/2020
 - choropleth project
 
