@@ -1,4 +1,7 @@
 /*
+1/11/2020
+- started/finished treemap project yay!
+
 1/10/2020
 - choropleth project - finished!
 
