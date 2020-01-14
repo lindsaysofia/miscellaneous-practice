@@ -1,4 +1,10 @@
 /*
+1/13/2020
+- Finished Managing Packages with Npm
+
+1/12/2020
+- starting managing packages with Npm on fcc
+
 1/11/2020
 - started/finished treemap project yay!
 
