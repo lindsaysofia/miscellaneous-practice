@@ -1,4 +1,19 @@
 /*
+1/18/2020
+- working with node/express
+
+1/17/2020
+- working with node/express
+
+1/16/2020
+- N/A
+
+1/15/2020
+- overview of node.js. want to overview some other topics too
+
+1/14/2020
+- started working with node/express
+
 1/13/2020
 - Finished Managing Packages with Npm
 
