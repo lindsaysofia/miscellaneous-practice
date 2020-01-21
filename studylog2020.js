@@ -1,6 +1,12 @@
 /*
-1/18/2020
+1/20/2020
 - working with node/express
+
+1/19/2020
+- Watch node overview
+
+1/18/2020
+- watch node overview
 
 1/17/2020
 - working with node/express
