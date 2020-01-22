@@ -1,4 +1,7 @@
 /*
+1/21/2020
+- finishing node/express exercises
+
 1/20/2020
 - working with node/express
 
