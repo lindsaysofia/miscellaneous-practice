@@ -1,4 +1,7 @@
 /*
+1/22/2020
+- start on mongoose/mongodb
+
 1/21/2020
 - finishing node/express exercises
 
