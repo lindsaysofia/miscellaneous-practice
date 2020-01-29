@@ -1,4 +1,22 @@
 /*
+1/28/2020
+- request header parser
+
+1/27/2020
+- N/A
+
+1/26/2020
+- timestamp microservice project
+
+1/25/2020
+- N/A
+
+1/24/2020
+- mongoose/mongodb
+
+1/23/2020
+- mongoose/mongodb
+
 1/22/2020
 - start on mongoose/mongodb
 
